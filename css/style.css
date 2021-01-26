@@ -12,6 +12,7 @@
     border-radius: 0.15rem;
     font-size: 16px;
     height: 35px;
+    cursor: pointer;
 }
 
 .btn.orcamento{
@@ -115,4 +116,67 @@ main {
     width: 500px;
     margin: 85px 0;
 
+}
+
+.text {
+    width: 100%;
+    border-bottom: 1px solid rgb(102, 102, 102);
+}
+.area_beneficios{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    overflow: hidden;
+    justify-content: space-evenly;
+
+
+}
+
+.icons {
+    width: 25%;
+    display: inline-block;
+    padding: 20px 10px;
+    margin-bottom: 3px;
+}
+
+.icons h3 {
+    font-size: 18px;
+    color: rgb(102, 102, 102);
+    font-weight: 400;
+    margin-top: 10px;
+    
+}
+
+.icons p {
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+    margin-top: 5px;
+    line-height: 1.5rem;
+}
+
+.skils {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-title h2 {
+    padding-top: 20px;
+    color: rgb(51, 71, 91);
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.text-title p {
+    padding-bottom: 30px;
+    font-family: 'Roboto';
+    color: #666;
+    font-size: 16px;
+    font-weight: 400;
 }
