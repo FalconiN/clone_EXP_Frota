@@ -16,14 +16,19 @@
     border-radius: 0.20rem;
 }
 
-.btn.orcamento{
+.btn.orcamento {
     height: 60px;
     padding: 2rem;
     display: flex;
     align-items: center;
     cursor: pointer;
     color: rgb(83, 81, 81);
+    background-color: white;
     margin-bottom: 50px;
+}
+
+.btn.orcamento:hover{
+    background-color: rgb(226, 219, 219);
 }
 
 .button {
@@ -39,8 +44,12 @@
 
 .btn.apresentacao {
     height: 70px;
-    background-color: #739e73;
+    background-color: #69a069;
     color: white;
+}
+
+.btn.apresentacao:hover{
+    background: #54a054;
 }
 
 body{
@@ -64,8 +73,12 @@ header{
 
 .links a {
     text-decoration: none;
-    color: black;
+    color: #20496d;
 
+}
+
+.links a:hover {
+    color:rgba(0, 145, 176, 0.96);
 }
 
 .links .btn{
@@ -78,9 +91,17 @@ header{
     margin: 0 10px;
 }
 
+.links .btn:hover{
+    background: #438043;
+}
+
 .links .btn.acess {
     background: #3276b1;
     color: white;
+}
+
+.links .btn.acess:hover {
+    background-color: #25547e;
 }
 
 
@@ -138,6 +159,7 @@ main {
 .info {
     width: 100%;
     border-bottom: 1px solid rgba(102, 102, 102, 0.699);
+    background-color: #eeeaea;
 }
 
 .area_beneficios{
@@ -172,9 +194,13 @@ main {
 }
 
 .skils {
-    width: 90%;
-    margin: 0 auto;
+    width: 100%;
     border-bottom: 1px solid rgba(102, 102, 102, 0.699);
+}
+
+.generico {
+    width: 80%;
+    margin: 0 auto;
 }
 
 .text-title {
@@ -205,6 +231,10 @@ main {
     /* margin-top: 30px; */
 }
 
+.software.new {
+    justify-content: left;
+}
+
 .wrap {
     padding: 0 10px 10px 0;
     display: flex;
@@ -231,4 +261,84 @@ main {
     font-size: 15px;
     font-weight: 400;
     color: #808080;
+}
+
+.grid {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 0 auto;
+    
+}
+
+.conteudo {
+    margin: 10px;
+    /* padding: 10px; */
+    border: 1px solid black;
+}
+
+.conteudointerno {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(102, 102, 102, 0.699);
+    background-color: #f6f8f9;
+    box-shadow: rgb(0 0 0 / 25%) 0px 1px 2px;
+
+}
+
+.conteudointerno h2 {
+    padding-top: 8px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #018dab
+}
+
+.conteudointerno p {
+    display: inline-block;
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    text-align: center;
+}
+
+.conteudointerno p span {
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 500;
+    color: rgb(51, 71, 126);
+}
+
+.contempla {
+    display: table;
+    text-align: left;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(50, 118, 177);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.contempla h4 {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: rgb(102, 102, 102);
+    font-weight: 400;
+}
+.contempla p {
+    display: table;
+    margin-top: 8px;
+    
+}
+
+.contempla p span {
+    display: inline-block;
+    font-weight: 700;
+    /* font-size: 40px; */
+    color: rgb(51, 71, 126);
 }
