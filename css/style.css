@@ -106,7 +106,7 @@ header{
 
 
 main {
-    height: 600px;
+    height: 607px;
     width: 100%;
     background: rgba(0, 145, 176, 0.96);
     position: relative;
@@ -311,34 +311,41 @@ main {
     color: rgb(51, 71, 126);
 }
 
-.contempla {
+.contempla, .opcionais {
     display: table;
     text-align: left;
     line-height: 20px;
     font-size: 16px;
     font-weight: 400;
     color: rgb(50, 118, 177);
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 8px 10px 10px;
 }
 
-.contempla h4 {
+.contempla h4, .opcionais h4 {
     text-transform: uppercase;
     font-size: 12px;
     color: rgb(102, 102, 102);
     font-weight: 400;
+
 }
 .contempla p {
     display: table;
-    margin-top: 8px;
+    /* margin-top: 8px; */
+    padding: 10px 10px;
     
 }
 
-.contempla p span {
+.contempla p:last-child {
+    border-bottom: 1px solid rgb(180, 174, 174);
+}
+
+.contempla p strong {
     display: inline-block;
     font-weight: 700;
     /* font-size: 40px; */
     color: rgb(51, 71, 126);
+}
+
+.opcionais p {
+    padding: 5px 10px;
 }
