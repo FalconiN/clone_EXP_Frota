@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
-
 *{
     margin: 0;
     padding: 0;
@@ -50,6 +49,16 @@
 
 .btn.apresentacao:hover{
     background: #54a054;
+}
+
+.btn.contratar{
+    font-size: 16px;
+    height: 35px;
+    width: 10rem;
+    color: #fff;
+    background: #739e73;
+    border-radius: 0.15rem;
+    margin: 10px 10px;
 }
 
 body{
@@ -224,6 +233,11 @@ main {
     font-weight: 400;
 }
 
+.text-title span {
+    color: rgba(0, 145, 176, 0.96);
+    margin-bottom: 10px;
+}
+
 .software {
     display: flex;
     justify-content: space-evenly;
@@ -272,18 +286,23 @@ main {
 }
 
 .conteudo {
+    display: flex;
+    flex-direction: column;
     margin: 10px;
+    box-shadow: 0 0 11px #eaf0f6;
     /* padding: 10px; */
-    border: 1px solid black;
+    border: 1px solid rgb(180, 174, 174);;
+    justify-content: center;
+    align-items: center;
 }
 
 .conteudointerno {
+    width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
+    align-items: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     border-bottom: 1px solid rgba(102, 102, 102, 0.699);
     background-color: #f6f8f9;
     box-shadow: rgb(0 0 0 / 25%) 0px 1px 2px;
@@ -328,10 +347,15 @@ main {
     font-weight: 400;
 
 }
+
+.opcionais h4{
+    margin-left: -38px;
+}
+
 .contempla p {
     display: table;
     /* margin-top: 8px; */
-    padding: 10px 10px;
+    padding: 8px 10px;
     
 }
 
@@ -347,5 +371,7 @@ main {
 }
 
 .opcionais p {
-    padding: 5px 10px;
+    padding: 3px 0px;
+    font-size: 12px;
+    margin-left: -20px;
 }
