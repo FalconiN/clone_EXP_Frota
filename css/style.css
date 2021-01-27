@@ -13,6 +13,7 @@
     font-size: 16px;
     height: 35px;
     cursor: pointer;
+    border-radius: 0.20rem;
 }
 
 .btn.orcamento{
@@ -20,10 +21,26 @@
     padding: 2rem;
     display: flex;
     align-items: center;
-    border-radius: 0.20rem;
     cursor: pointer;
     color: rgb(83, 81, 81);
     margin-bottom: 50px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 5px;
+}
+
+.btn.apresentacao {
+    height: 70px;
+    background-color: #739e73;
+    color: white;
 }
 
 body{
@@ -118,10 +135,11 @@ main {
 
 }
 
-.text {
+.info {
     width: 100%;
-    border-bottom: 1px solid rgb(102, 102, 102);
+    border-bottom: 1px solid rgba(102, 102, 102, 0.699);
 }
+
 .area_beneficios{
     width: 80%;
     margin: 0 auto;
@@ -129,8 +147,6 @@ main {
     text-align: center;
     overflow: hidden;
     justify-content: space-evenly;
-
-
 }
 
 .icons {
@@ -156,13 +172,14 @@ main {
 }
 
 .skils {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
+    border-bottom: 1px solid rgba(102, 102, 102, 0.699);
 }
 
 .text-title {
     display: flex;
-    align-items: center;
+    text-align: center;
     flex-direction: column;
 }
 
@@ -179,4 +196,39 @@ main {
     color: #666;
     font-size: 16px;
     font-weight: 400;
+}
+
+.software {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    /* margin-top: 30px; */
+}
+
+.wrap {
+    padding: 0 10px 10px 0;
+    display: flex;
+    width: 26%;
+    line-height: 1.5rem;
+}
+
+.text-ico {
+    padding-left: 10px;
+}
+
+.text-ico h3 {
+    /* padding-left: 10px; */
+    font-weight: 600;
+    font-size: 18px;
+    /* padding-right: 10px; */
+    color: rgb(50,107,164);
+    margin-bottom: 5px;
+}
+
+.text-ico p {
+    /* padding-left: 10px; */
+    text-align: left;
+    font-size: 15px;
+    font-weight: 400;
+    color: #808080;
 }
